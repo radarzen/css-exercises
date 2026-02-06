@@ -1,1 +1,15 @@
 /* Add CSS Styling */
+
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+}
+
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}
+
+/* REFLECTIONS: Not much to this exercise.  Chaining was 
+    easy to understand and pretty straight-forward.
+*/
