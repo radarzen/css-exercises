@@ -2,6 +2,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.para {
+  font-size: 22px;
+}
+
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
@@ -13,11 +17,7 @@ body {
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
+.confirm#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,14 +29,21 @@ body {
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
+
+div.text .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+/* REFLECTION: This exercise required some thought and I can
+  definately see how it can get so complicated with a large
+  webpage.  The solution document provides clearer/cleaner ways
+  to accomplish the task.  I'm sure with practices, my
+  solutions will get cleaner as well.
+*/
