@@ -1,7 +1,7 @@
 /* Add CSS Styling */
 p {
     background-color: #FFA7A7;
-    font-family: Verdana, DejaVu Sans, sans-serif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 .cooler, 
@@ -18,3 +18,10 @@ p {
     background-color: lightgreen;
     font-weight: bold;
 }
+
+/* 
+    NOTES: While I did make the HTML look correct, I made a mistake in not
+    utilizing id's.  The elements 2 and 4 were single elements and should've
+    been id's and not classes.  While I may not have been technically
+    incorrect, it would've made the code easier to read and maintain.
+ */
