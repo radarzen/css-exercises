@@ -1,1 +1,31 @@
 /* Add CSS Styling */
+
+/* This one works: */
+/* .container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* This one works too: */
+/* div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* This is the last one I thought of and it works too: */
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* REFLECTIONS: Missed the last way in the solution using the 
+    '.container p', but I feel good about it.  I don't think 3 of 
+    4 was bad.  I did try a couple at first that didn't work, so 
+    the exercise was good to get the process straight in my head.
+*/
