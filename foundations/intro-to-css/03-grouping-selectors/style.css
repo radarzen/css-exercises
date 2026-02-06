@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+
+.black-btn {
+    background-color: black;
+    color: white;
+}
+
+.yellow-btn {
+    background-color: yellow;
+}
+
+.black-btn,
+.yellow-btn {
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    font-size: 28px;
+}
+
+/* IN REVIEW:  I noticed in the solution that the grouped classes
+  come before the individual classes.  Quick google search shows that
+  is probably the norm/standard.  I've asked if it is and if there's 
+  a functional reason why on the Discord server for TOP, but haven't
+  gotten a response yet as of now.
+*/
