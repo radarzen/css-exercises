@@ -7,15 +7,15 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 30px;
+  margin: 10px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 40px;
 }
 
 .three {
@@ -23,6 +23,15 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 30px;
+  margin-left: 334px;
 }
+
+/* REFLECTION: Okay, after looking at the solution, the big difference
+  was the use of auto for the margin-left property of .three.  I wasn't
+  right on the money with the other numbers, but I was close and the 
+  image looked very similar to what I had.  I'm not sure you could get
+  an exact without specialized tools to measure an image and the
+  lesson didn't talk about doing anything like that.  I think I met
+  the intent.
+*/
