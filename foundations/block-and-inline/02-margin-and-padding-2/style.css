@@ -7,21 +7,54 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 8px;
+  margin-bottom: 8px;
+  font-size: 16px;
+
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  text-align: center;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
+  margin: 0px auto;
 }
+
+/* REFLECTION: NGL, I had to look at the solution.  I couldn't get
+  the damn button to move to the center.  I'm still not exactly
+  sure why 'auto' margin moves it to center, but whatever.  Also,
+  I used devtools to edit margins to get it close on mine, but 
+  never could seem to get it right.  The words would wrap in the 
+  wrong place in the content, or the widths looked off.  I never 
+  wanted to do this to be a star site designer anyways.  I detest
+  doing design work. 
+
+  My work here looks like the solution because I made one change
+  at a time to my code using numbers from the solution and 
+  refreshing to see the change it made to the output.  Just trying
+  to understand what does what.
+
+  Basically, I was adding margins where I didn't need to.  That
+  was throwing everything off.  The rest of my numbers were
+  actually pretty close (I was using paddings of 6 instead of 8
+  cause I was compensating for the unneeded margins I was puting
+  in).
+*/
