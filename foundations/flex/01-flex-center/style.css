@@ -3,6 +3,9 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -13,3 +16,11 @@
   width: 80px;
   height: 80px;
 }
+
+/* REFLECTIONS:  This was a simple exercise, but I realize I still have to 
+    use notes to remember the exact verbiage for the properties.  VS Code's
+    auto-fill really helps. I got a lot out of the one website that really
+    broke down the concept between "content" along the main axis.  That
+    helps me remember which properties to use.  The css-poster is super
+    helpful too.
+*/
