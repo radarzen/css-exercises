@@ -1,6 +1,10 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0px;
 }
 
 .logo {
@@ -14,12 +18,37 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  margin: 0px;
+  padding: 0px;
+  
 }
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
+  margin: 8px;
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/* PLANNING:  So, I think I'm going to need a flex within a flex type
+  thing going on?  I'll need a flex for the header for the three blocks
+  of items (left UL, logo, right UL), and then have a flex in the UL 
+  to have them horizontal and grow/shrink within their portions. I'm 
+  not sure what the README.md means about needing to adjust margin and
+  padding, so I'm goint to try to get things in the right order first, 
+  and then worry about margin and padding to get it to look like the 
+  pics.
+*/
+
+/* REFLECTIONS:  I did pretty well with flexbox and got things in the 
+  right places pretty quickly. I struggled again with the margins and
+  padding. I understand the basics of what each property means, but 
+  trying to get my html to render like the pics are killing me. I got 
+  relatively the same result, but I went a different direction cause 
+  I forgot about the 'gap' property used in the solution.
+*/
